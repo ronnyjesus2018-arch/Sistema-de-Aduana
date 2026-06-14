@@ -15,7 +15,7 @@ from ui.views.view_reportes import ViewReportes
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Sistema de Conciliación y Facturación Aduanera Transmundial")
+        self.setWindowTitle("Sistema de Conciliación y Facturación Aduanera")
         self.setGeometry(100, 100, 1024, 600)
 
         self.inicializar_db()
